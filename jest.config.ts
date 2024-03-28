@@ -7,6 +7,7 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
   },
+  clearMocks: true,
   testMatch: ['**/__tests__/**/*.test.ts'],
   collectCoverageFrom: ['**/*.ts', '!**/__tests__/**'],
   coverageDirectory: '../coverage',
